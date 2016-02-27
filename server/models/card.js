@@ -48,6 +48,7 @@ cardSchema.statics.deactivateAllCards = function () {
             if (err) {
                 reject(err);
             }
+
             resolve(results);
         });
     });
